@@ -14,7 +14,7 @@ You can install the package through [Composer](https://getcomposer.org).
 
 Run the Composer require command from the Terminal:
 
-    composer require gojha/shoppingcart-eloquent
+    composer require gauravojha/shoppingcart-eloquent
 	
 Next up, add the service provider of the package and alias the package. Open the `config/app.php` file and:
 * add the following line to the `providers` array
