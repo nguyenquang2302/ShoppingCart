@@ -1,8 +1,5 @@
 # Eloquent Shopping Cart
 A simple Laravel Based Shopping Cart. Uses persistent Eloquent Databases instead of Sessions.  
-[![Latest Stable Version](https://poser.pugx.org/gauravojha/shoppingcart-eloquent/v/stable)](https://packagist.org/packages/gauravojha/shoppingcart-eloquent)
-[![Total Downloads](https://poser.pugx.org/gauravojha/shoppingcart-eloquent/downloads)](https://packagist.org/packages/gauravojha/shoppingcart-eloquent)
-[![License](https://poser.pugx.org/gauravojha/shoppingcart-eloquent/license)](https://packagist.org/packages/gauravojha/shoppingcart-eloquent)
 
 ### Note
 If you have a couple minutes, I would request you to read the [motivation](#motivation) behind why I chose to make this package in the first place, and why this is different from the other Laravel based packages available. But of course, you may choose to dive right in!
