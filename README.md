@@ -4,6 +4,8 @@ A simple Laravel Based Shopping Cart. Uses Eloquent Databases only.
 ### Note
 If you have a couple minutes, I would request you to read the [motivation](#motivation) behind why I chose to make this package in the first place, and why this is different from the other Laravel based packages available. But of course, you may choose to dive right in!
 
+Another thing, I know that the test cases are in shambles. I aim to fix that soon.
+
 # Installation
 You can install the package through [Composer](https://getcomposer.org).
 
@@ -164,13 +166,13 @@ For this section:
 	```
 
 Now if you have a `route` which is used to add a product to the shopping cart then, an example would be
-	```php
+```php
 	public function addToCart(Request $request, Product $product)
 	{
 		// the request must supply the product to be added and other relevant data
 		Cart::addToCart(Auth::user()->id, $product->id, $product->price_per_item, $request->input('quantity')); 
 	}
-	```
+```
 I hope this one example should be enough to get you started and exploring
 
 # Upcoming features 
@@ -178,6 +180,7 @@ I understand that this package is very basic, and may just fulfill a user's requ
 Therefore, I aim to take up the following tasks ahead:
 * update the prices of the products **still in the cart** if they change in the product's databases.
 * bring in Redis support
+* fix test cases
 
 # Motivation
 Before you proceed any further, please note that this is unlike the other shopping carts available. Having said that, I do not mean to take anything away from those implementations. The others are very robust, with a host of options. 
