@@ -1,0 +1,21 @@
+{
+    "name": "gojha/shoppingcart-eloquent",
+    "description": "A simple shopping cart for Laravel using Database",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.2",
+        "illuminate/database": "^5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gaurav",
+            "email": "gauravojha@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gojha\\Shoppingcart\\": "src"
+        }
+    }
+}
