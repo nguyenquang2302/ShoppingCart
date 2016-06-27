@@ -1,6 +1,6 @@
 {
     "name": "gauravojha/shoppingcart-eloquent",
-    "description": "A simple shopping cart for Laravel using Database",
+    "description": "A simple Laravel Based Shopping Cart. Uses persistent Eloquent Databases instead of Sessions.",
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "^5.2",
