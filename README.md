@@ -1,6 +1,8 @@
 # Eloquent Shopping Cart
-A simple Laravel Based Shopping Cart. Uses Eloquent Databases only.  
-
+A simple Laravel Based Shopping Cart. Uses persistent Eloquent Databases instead of Sessions.  
+[![Latest Stable Version](https://poser.pugx.org/gauravojha/shoppingcart-eloquent/v/stable)](https://packagist.org/packages/gauravojha/shoppingcart-eloquent)
+[![Total Downloads](https://poser.pugx.org/gauravojha/shoppingcart-eloquent/downloads)](https://packagist.org/packages/gauravojha/shoppingcart-eloquent)
+[![Build Status](https://travis-ci.org/gauravojha/shoppingcart-eloquent.svg?branch=master)](https://travis-ci.org/gauravojha/shoppingcart-eloquent)
 ### Note
 If you have a couple minutes, I would request you to read the [motivation](#motivation) behind why I chose to make this package in the first place, and why this is different from the other Laravel based packages available. But of course, you may choose to dive right in!
 
@@ -11,7 +13,7 @@ You can install the package through [Composer](https://getcomposer.org).
 
 Run the Composer require command from the Terminal:
 
-    composer require gojha/shoppingcart-eloquent
+    composer require gauravojha/shoppingcart-eloquent
 	
 Next up, add the service provider of the package and alias the package. Open the `config/app.php` file and:
 * add the following line to the `providers` array
