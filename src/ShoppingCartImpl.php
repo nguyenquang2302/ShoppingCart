@@ -61,7 +61,7 @@ class ShoppingCartImpl
 	 */
 	public function removeFromCart($productid)
 	{
-		ShoppingCartItem::where('user_id', '=', Auth::user()->id)->destroy($productid);
+		ShoppingCartItem::where('product_id', '=', $productid)->where('user_id', '=', Auth::user()->id)->delete();
 	}
 
 	/**
