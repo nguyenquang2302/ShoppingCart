@@ -10,7 +10,7 @@ class ShoppingCartImpl
 	/**
 	 * The tax rate
 	 */
-	private $taxRate = 15;
+	private $taxRate = 0;
 
 	/**
 	 * Delivery charges (if applicable)
