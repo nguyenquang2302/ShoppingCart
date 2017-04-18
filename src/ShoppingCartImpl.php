@@ -98,4 +98,10 @@ class ShoppingCartImpl
 		$total += $this->deliveryCharges;
 		return $total;
 	}
+	
+	public function getQtyInCartForProduct($productid)
+	{
+		$product = ShoppingCartItem::where('product_id', '=', $productid)->where('user_id', '=', Auth::user()->id)->first();
+		return $product->qty;
+	}
 }
