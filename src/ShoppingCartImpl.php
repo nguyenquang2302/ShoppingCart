@@ -104,4 +104,10 @@ class ShoppingCartImpl
 		$product = ShoppingCartItem::where('product_id', '=', $productid)->where('user_id', '=', Auth::user()->id)->first();
 		return $product->qty;
 	}
+	
+	public function getPriceOfProductInCart($productid)
+	{
+		$product = ShoppingCartItem::where('product_id', '=', $productid)->where('user_id', '=', Auth::user()->id)->first();
+		return $product->price;
+	}
 }
