@@ -1,9 +1,9 @@
 <?php
 
-namespace Gojha\Shoppingcart;
+namespace Ndq\Shoppingcart;
 
 use Illuminate\Support\ServiceProvider;
-use Gojha\Shoppingcart\ShoppingCartImpl;
+use Ndq\Shoppingcart\ShoppingCartImpl;
 
 class ShoppingCartProvider extends ServiceProvider
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Gojha\Shoppingcart;
+namespace Ndq\Shoppingcart;
 
 use Illuminate\Support\Facades\Facade;
 

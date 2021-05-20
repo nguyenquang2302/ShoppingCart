@@ -1,22 +1,23 @@
 {
-    "name": "gauravojha/shoppingcart-eloquent",
+    "name": "nguyenquang2302/shoppingcart-eloquent",
     "description": "A simple Laravel Based Shopping Cart. Uses persistent Eloquent Databases instead of Sessions.",
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "^5.2",
-        "illuminate/database": "^5.2",
-        "phpunit/phpunit": "~4.0"
+          "illuminate/support": "^5.8|^6|^7|^8",
+        "illuminate/database": "^5.8|^6|^7|^8",
+        "illuminate/console": "^5.8|^6|^7|^8",
+        "guzzlehttp/guzzle": "^6.3.1|^7.0",
+        "maatwebsite/excel": "^3.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Gaurav",
-            "email": "gauravojha@gmail.com"
+            "name": "nguyenquang2302",
+            "email": "nguyenquang2302@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Gojha\\Shoppingcart\\": "src"
+            "Ndq\\Shoppingcart\\": "src"
         }
     }
 }

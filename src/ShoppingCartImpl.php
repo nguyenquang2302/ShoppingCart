@@ -1,6 +1,6 @@
 <?php
 
-namespace Gojha\ShoppingCart;
+namespace Ndq\ShoppingCart;
 
 use App\ShoppingCartItem;
 use Auth;

@@ -18,15 +18,15 @@ Run the Composer require command from the Terminal:
 Next up, add the service provider of the package and alias the package. Open the `config/app.php` file and:
 * add the following line to the `providers` array
 
-	> Gojha\Shoppingcart\ShoppingCartProvider::class,
+	> Ndq\Shoppingcart\ShoppingCartProvider::class,
 
 * add the following line to the `aliases` array
 
-	>  'Cart' => Gojha\Shoppingcart\CartFacade::class,
+	>  'Cart' => Ndq\Shoppingcart\CartFacade::class,
 	
 Since this package uses the Eloquent databases and an associated Model, you also need to run the following command from the root of your application:
 
-	> php artisan vendor:publish --provider="Gojha\Shoppingcart\ShoppingCartProvider"
+	> php artisan vendor:publish --provider="Ndq\Shoppingcart\ShoppingCartProvider"
 
 And of course, it goes without saying, run the migrations after this to create the database using `php artisan migrate`
 
